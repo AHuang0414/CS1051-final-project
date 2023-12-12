@@ -1,0 +1,126 @@
+--------------------------------------------------------
+Update 1.5
+by Elio && Andrew
+
+Summary:
+	Finished the game story and imaging
+
+added:
++ different backgrounds for decisions and scenes
++ custom characters and text
++ new characters
++ funny dialogue
++ 2 mini games in phone
++ working phone buttons
++ cookie counter
+
+changes:
+fixed some images sizing
+recreated some images
++ changed window icon to mars
++ enlarged main_menu gif
+
+---------------------------------------------------------
+
+Update 1.4.4
+By Elio
+
+Added:
++ part 10 of the story + ending
++ 2 different variations of ending based on a decision
++ teacher sprite
++ resized images
+
+---------------------------------------------------------
+
+Update 1.4.3
+By Andrew
+
+Added:
++ part 6, 7, 8, 9 of story (generated using chatGpt)
++ some pics
++ general (character) sprite 
+     - optimized for dialouge (check script.rpy for usage)
+
+
+Changes:
++ changed "call homeMenu" to "jump homeMenu" b/c it was breaking how endGameChance worked
++ text speed = 60 cps (characters per second)
+
+----------------------------------------------------------------------------------------------------
+
+Update 1.3
+By Andrew
+
+Added:
++ 1 more part to story
++ new system where everytime you click on "Next Event", theres a random chance to just end the game
+	- Check homeMenu.rpy for code
+
+
+----------------------------------------------------------------------------------------------------
+
+Update 1.2
+By Andrew
+
+Added:
++ 2 more parts of the story (waste management + Water treatment)
+
+
+Changes:
++ New system for finding labels and story progression
+	- check script.rpy for more info
+
+
+Possible Changes:
++ Created some variables to use for stats, and upgrade paths (open more menu options in future?)
+	- Check in homeMenu.rpy for more info
+
+
+----------------------------------
+
+
+Update 1.1
+By Andrew
+
+Added:
+- Made home menu screen, simple 3 buttons on a phone picture by using screens to display instead of menu 
+      - (buttons don't do anything yet tho)
+      - also is in seperate file so its easier to edit
+
+-------------------------------------------
+
+
+
+--- We Will Store Patch Notes Here ---
+
+use this format
+
+-Name (update 1.0)
+-All changes + explenation
+-Suggestions
+
+-------------------------------------------
+
+Update 1.0
+Done by Elio Berberi
+
+Changes:
+Added a new txt file titled necessery_Credots.txt:
+	place any credits here
+
+Created background images using Photoshops AI
+	much faster and non copyright, i will discuss this with Rosen tomorrow
+
+Developed:
+	Created a new image defining system, explained how to define and used in code (read comments)
+	Added more to story and a new event, event doesnt work as it needs 2 new labels
+	Added a EndGame label wich should be called everytime the player loses the game
+	Added more to first menu, now all three choices lead to something
+	
+Future Suggestions:
+	We keep the game simple
+	Create a new home label each time u need to reuse the home scene:
+		label home(#which variation ex. home(1),home(2)...)
+			show officebk
+			then continue story.
