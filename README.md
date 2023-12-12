@@ -1,4 +1,4 @@
-Andrew Huang (2027) tur23799@temple.edu, Micah Hertzler (2027) tur72952@temple.edu, Elio Berberi (C.S. Major 2027) tuo92727@temple.edu
+Andrew Huang (C.S. Major 2027) tur23799@temple.edu, Micah Hertzler (2027) tur72952@temple.edu, Elio Berberi (C.S. Major 2027) tuo92727@temple.edu
 
 Main challenges:
 
